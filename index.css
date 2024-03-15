@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bree Serif";
+    color:#394656;
+  }
+ 
+
+.web-nav-logo {
+    width: 80px;
+    height: 70px;
+}
+#navItem {
+    color:#1a9ea3;
+    font-weight: bold;
+    font-family: "Caveat";
+    font-size: 20px;
+}
+.image-cont{
+    width: 100vw;
+    height:80vh;
+}
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  section {
+    padding: 20px;
+  }
+
+  .packages{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .package {
+    margin-bottom: 15px;
+    border: 0px solid #ccc;
+    padding: 30px;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px 5px #aaaaaa;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+  }
+  .package img{
+    height: 350px;
+    width: 400px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+  }
+  h2{
+    color:#71bf45;
+    font-weight: bold;
+  }
+  .package h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:#71bf45;
+  }
+  
+  .package ul {
+    margin-bottom: 10px;
+  }
+  
+  .package p.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #009688;
+  }
+  
+  .package .btn {
+    display: inline-block;
+    background-color: #009688;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .package .btn:hover {
+    background-color: #00796b;
+  }
+  
+  
+  footer {
+    background-color:#1a9ea3;
+    color: #71bf45;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit{
+    background-color:#1a9ea3;
+    color: #fff;
+    cursor: pointer;
+    padding:12px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  
+  
+  .flights{
+    display: flex;
+    flex-wrap: wrap;
+  
+    box-shadow: 10px 10px 10px 5px #aaaaaa;
+    border-radius: 12px;
+    align-items: center;
+    height:300px;
+    width:100%;
+  }
+  .flights img{
+    height:300px;
+    width:40%;
+    margin-right: 10px;
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+   
+    
+  }
+  
+  
+  .hotels{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+  }
+ 
+#hotels img{
+    height:100%;
+    width: 100%;
+    margin:10px;
+}
+    
+  .collections{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  .collection {
+    margin-bottom:15px;
+    border: 1px solid #73bc44;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+    width: 300px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .collection h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #1a9ea3;
+    
+  }
+  .collection img{
+    height:150px;
+    width:150px;
+    border-radius: 10px;
+  }
+  
+  
+
+  .follow-us-section {
+    background-color: white;
+}
+
+
+
+.follow-us-icon-container {
+    background-color:#DAFFFB;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color:#73bc44;
+    font-size: 35px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
